@@ -4,6 +4,8 @@
 <img src="./resources/frontend-developer.png" width="90%" alt="frontend-interview-study" />
 </p>
 
+<br/>
+
 ## 🐢 스터디 멤버
 
 | [![hyun812](https://github.com/hyun812.png)](https://github.com/hyun812) | [![rosielsh](https://github.com/rosielsh.png)](https://github.com/rosielsh) | [![3o14](https://github.com/3o14.png)](https://github.com/3o14) | [![3o14](https://github.com/junyeop1322.png)](https://github.com/junyeop1322)|
