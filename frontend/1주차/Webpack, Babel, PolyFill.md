@@ -9,7 +9,7 @@
 
 - 웹 어플리케이션을 구성하는 자원(컴포넌트, 이미지, CSS 파일 등)을 **모듈 단위로 나누어** 필요할 때마다 조합하여 하나의 결과물로 산출시키는 역할을 한다.
 
-![Alt text](image.png)
+![Alt text](../../resources/Webpack,%20Babel,%20PolyFill/image.png)
 
 ### 2. 사용 이유
 
@@ -92,7 +92,7 @@
 
 1. **웹 어플리케이션의 빠른 로딩 속도와 높은 성능**
 
-![Alt text](image-1.png)
+![Alt text](../../resources/Webpack,%20Babel,%20PolyFill/image-1.png)
 
 - 웹페이지에 접속하게 되면 js, image, font 등 많은 리소스 파일들이 다운받아지는데, 만약 사용하는 파일들이 **수천개로 늘어난다면 로딩 시간이 길어질 것이다.**
 - 이를 해결하기 위해 웹팩은 **여러 파일을 하나로 병합 및 압축하는 기능을 제공**하고 있다.

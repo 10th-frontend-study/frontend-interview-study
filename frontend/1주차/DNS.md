@@ -13,7 +13,7 @@
 
 - 도메인 수가 너무 많기 때문에 DNS 서버 종류를 계층화해서 단계적으로 처리
 
-![Untitled](../resources/DNS/image_2.png)
+![Untitled](../../resources/DNS/image_2.png)
 
 <br>
 
@@ -67,6 +67,6 @@
 
 <br>
 
-![Untitled](../resources/DNS/image_1.png)
+![Untitled](../../resources/DNS/image_1.png)
 
 이런 방식을 **Recursive Query** 라고 함
