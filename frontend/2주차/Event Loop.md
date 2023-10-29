@@ -46,13 +46,18 @@ console.log("third");
 ```
 
 1. **call stack에 log(’first’) push**
+
 2. **화면 출력 후 call stack에서 pop**
+
 3. **setTimeout이 call stack에 push**
    1. **Browser가 제공하는 Web APIs에서 타이머를 실행**
    2. **call stack에서 pop**
    3. **타이머 실행이 끝나면 callback queue로 보냄**
+
 4. **call stack에 log(’third’) push**
+
 5. **화면 출력 후 call stack에서 pop**
+
 6. **event loop가 call stack이 비어있는 것을 확인**
    1. **콜 스택에 setTimeout push**
    2. **call stack에 log(’second’) push**
