@@ -60,7 +60,7 @@
 
 - 로컬 스토리지, 세션 스토리지, 쿠키에 대해 설명해 주세요.
 
-- Event loop에 대해 설명해 주세요.
+- [Event loop에 대해 설명해 주세요.](/frontend/2주차/Event%20Loop.md)
 
 - MVC, MVVM 패턴에 대해 설명해 주세요.
 
