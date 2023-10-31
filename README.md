@@ -54,7 +54,7 @@
 
 - CORS가 무엇이며, 해결하기 위한 방법에 대해 설명해 주세요.
 
-- Sementic Markup에 대해 설명해 주세요.
+- [Sementic Markup에 대해 설명해 주세요.](/frontend/2주차/Semantic_Markup.md)
 
 - HTML에서의 attributes와 properties의 차이점을 설명해 주세요.
 
