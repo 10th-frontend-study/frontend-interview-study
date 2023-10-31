@@ -50,7 +50,7 @@
 
 - [Webpack, Babel, Polyfill에 대해 설명해 주세요.](/frontend/1주차/Webpack,%20Babel,%20PolyFill.md)
 
-- SPA, CSR, SSR의 차이를 설명해 주세요.
+- [SPA, CSR, SSR의 차이를 설명해 주세요.](/frontend/2주차/SPA_CSR_SSR.md)
 
 - CORS가 무엇이며, 해결하기 위한 방법에 대해 설명해 주세요.
 
