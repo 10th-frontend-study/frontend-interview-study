@@ -64,7 +64,7 @@
 
 - MVC, MVVM 패턴에 대해 설명해 주세요.
 
-- HTTP와 HTTPS의 차이점을 설명해 주세요.
+- [HTTP와 HTTPS의 차이점을 설명해 주세요.](/frontend/3주차/http_https.md)
 
 - 페이지 로드 시간을 줄이는 방법들에 대해서 설명해 주세요.
 
@@ -86,9 +86,9 @@
 
 - 콜백지옥의 의미와 콜백지옥을 해결하는 방법을 설명해 주세요.
 
-- Promise와 Async, Await의 차이를 설명해 주세요.
+- [Promise와 Async, Await의 차이를 설명해 주세요.](/javascript/4주차/promise_async_await.md)
 
-- map과 forEach의 차이를 설명해 주세요.
+- [map과 forEach의 차이를 설명해 주세요.](/javascript/4주차/forEach_map.md)
 
 - var, let, const의 차이를 설명해 주세요.
 
