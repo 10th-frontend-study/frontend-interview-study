@@ -8,9 +8,9 @@
 
 ## 🐢 스터디 멤버
 
-| [![hyun812](https://github.com/hyun812.png)](https://github.com/hyun812) | [![rosielsh](https://github.com/rosielsh.png)](https://github.com/rosielsh) | [![3o14](https://github.com/3o14.png)](https://github.com/3o14) | [![3o14](https://github.com/junyeop1322.png)](https://github.com/junyeop1322) |
-| :----------------------------------------------------------------------: | :-------------------------------------------------------------------------: | :-------------------------------------------------------------: | :---------------------------------------------------------------------------: |
-|                   [이승현](https://github.com/hyun812)                   |                    [이수화](https://github.com/rosielsh)                    |                [이원주](https://github.com/3o14)                |                   [김준엽](https://github.com/junyeop1322)                    |
+| <a href="https://github.com/hyun812"><img src="https://github.com/hyun812.png" width="200" alt="hyun812"></a> | <a href="https://github.com/rosielsh"><img src="https://github.com/rosielsh.png" width="200" alt="rosielsh"></a> | <a href="https://github.com/3o14"><img src="https://github.com/3o14.png" width="200" alt="3o14"></a> | <a href="https://github.com/junyeop1322"><img src="https://github.com/junyeop1322.png" width="200" alt="junyeop1322"></a> |
+| :-----------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------: |
+|                                  [Seunghyun Lee](https://github.com/hyun812)                                  |                                    [Lee Su-hwa](https://github.com/rosielsh)                                     |                                 [Wonju Lee](https://github.com/3o14)                                 |                                       [Junyeop Kim](https://github.com/junyeop1322)                                       |
 
 <br/>
 
@@ -52,97 +52,97 @@
 
 - [SPA, CSR, SSR의 차이를 설명해 주세요.](/frontend/2주차/SPA_CSR_SSR.md)
 
-- CORS가 무엇이며, 해결하기 위한 방법에 대해 설명해 주세요.
+- [CORS가 무엇이며, 해결하기 위한 방법에 대해 설명해 주세요.](./frontend/2주차/CORS가%20무엇이며,%20해결하기%20위한%20방법에%20대해%20설명해주세요..md)
 
 - [Sementic Markup에 대해 설명해 주세요.](/frontend/2주차/Semantic_Markup.md)
 
-- HTML에서의 attributes와 properties의 차이점을 설명해 주세요.
+- [HTML에서의 attributes와 properties의 차이점을 설명해 주세요.]()
 
-- 로컬 스토리지, 세션 스토리지, 쿠키에 대해 설명해 주세요.
+- [로컬 스토리지, 세션 스토리지, 쿠키에 대해 설명해 주세요.]()
 
 - [Event loop에 대해 설명해 주세요.](/frontend/2주차/Event%20Loop.md)
 
-- MVC, MVVM 패턴에 대해 설명해 주세요.
+- [MVC, MVVM 패턴에 대해 설명해 주세요.](./frontend/3주차/MVC,%20MVVM%20패턴에%20대해%20설명해주세요.md)
 
 - [HTTP와 HTTPS의 차이점을 설명해 주세요.](/frontend/3주차/http_https.md)
 
-- 페이지 로드 시간을 줄이는 방법들에 대해서 설명해 주세요.
+- [페이지 로드 시간을 줄이는 방법들에 대해서 설명해 주세요.]()
 
-- 테스트 코드에 대해 설명해 주세요.
+- [테스트 코드에 대해 설명해 주세요.]()
 
-- 웹 서비스 배포 시스템 구축 경험이 있으신가요?
+- [웹 서비스 배포 시스템 구축 경험이 있으신가요?](./frontend/3주차/웹%20서비스%20배포%20시스템에%20대해서%20설명해주세요.md)
 
-- CI/CD에 대해 설명해 주세요.
+- [CI/CD에 대해 설명해 주세요.]()
 
 <br/>
 
 ## ⚡️ JavaScript
 
-- Sync와 Async의 차이점을 설명해 주세요.
+- [Sync와 Async의 차이점을 설명해 주세요.](./javascript/4주차/Sync와%20Async의%20차이점을%20설명해주세요..md)
 
-- Blocking과 Non-Blocking의 차이를 설명해 주세요.
+- [Blocking과 Non-Blocking의 차이를 설명해 주세요.]()
 
-- 콜백함수에 대해 설명해 주세요.
+- [콜백함수에 대해 설명해 주세요.]()
 
-- 콜백지옥의 의미와 콜백지옥을 해결하는 방법을 설명해 주세요.
+- [콜백지옥의 의미와 콜백지옥을 해결하는 방법을 설명해 주세요.]()
 
 - [Promise와 Async, Await의 차이를 설명해 주세요.](/javascript/4주차/promise_async_await.md)
 
 - [map과 forEach의 차이를 설명해 주세요.](/javascript/4주차/forEach_map.md)
 
-- var, let, const의 차이를 설명해 주세요.
+- [var, let, const의 차이를 설명해 주세요.]()
 
-- 메서드 체이닝에 대해 설명해 주세요.
+- [메서드 체이닝에 대해 설명해 주세요.]()
 
-- 일반 함수와 화살표 함수의 차이
+- [일반 함수와 화살표 함수의 차이](./javascript/5주차/일반함수와%20화살표함수의%20차이.md)
 
-- this의 의미를 설명해 주세요.
+- [this의 의미를 설명해 주세요.](./javascript/5주차/this의%20의미를%20설명해주세요.md)
 
 - [함수 선언형과 함수 표현식의 차이를 설명해 주세요.](/javascript/5주차/함수선언식vs함수표현식.md)
 
 - [호이스팅에 대해 설명해 주세요.](/javascript/5주차/호이스팅.md)
 
-- 이벤트 버블링과 이벤트 캡처링에 대해 설명해 주세요.
+- [이벤트 버블링과 이벤트 캡처링에 대해 설명해 주세요.]()
 
-- 이벤트 전파와 이벤트 위임에 대해 설명해 주세요.
+- [이벤트 전파와 이벤트 위임에 대해 설명해 주세요.]()
 
-- 클로져에 대해 설명해 주세요.
+- [클로져에 대해 설명해 주세요.]()
 
-- 렉시컬 스코프에 대해 설명해 주세요.
+- [렉시컬 스코프에 대해 설명해 주세요.]()
 
-- 스코프와 스코프 체인에 대해 설명해주세요.
+- [스코프와 스코프 체인에 대해 설명해주세요.](./javascript/5주차/스코프와%20스코프체인에%20대해%20설명해주세요.md)
 
 - [실행 컨텍스트에 대해 설명해 주세요.](/javascript/5주차/실행컨텍스트.md)
 
-- 프로토타입과 프로토타입 체인에 대해 설명해 주세요.
+- [프로토타입과 프로토타입 체인에 대해 설명해 주세요.]()
 
-- 깊은 복사와 얕은 복사의 차이점을 설명해 주세요.
+- [깊은 복사와 얕은 복사의 차이점을 설명해 주세요.]()
 
-- 구조 분해 할당(destructuring) 대해 설명해 주세요.
+- [구조 분해 할당(destructuring) 대해 설명해 주세요.]()
 
-- spread 문법과 rest 문법의 차이에 대해 설명해 주세요.
+- [spread 문법과 rest 문법의 차이에 대해 설명해 주세요.]()
 
-- ES6에서 생긴 큰 변화들에 대해 설명해 주세요.
+- [ES6에서 생긴 큰 변화들에 대해 설명해 주세요.](./javascript/6주차/ES6에서%20생긴%20큰%20변화들에%20대해%20설명해%20주세요.md)
 
-- Ajax에 대해 설명해 주세요.
+- [Ajax에 대해 설명해 주세요.]()
 
 - [import와 require의 차이점에 대해 설명해 주세요.](/javascript/6주차/require_import.md)
 
-- npm에 대해 설명해 주세요.
+- [npm에 대해 설명해 주세요.](./javascript/6주차/npm에%20대해%20설명해%20주세요.md)
 
-- package.json과 package-lock.json의 역할에 대해 설명해 주세요.
+- [package.json과 package-lock.json의 역할에 대해 설명해 주세요.]()
 
-- typescript를 쓰는 이유에 대해 설명해 주세요.
+- [typescript를 쓰는 이유에 대해 설명해 주세요.]()
 
 - [null, undefined, undeclared, NaN에 대해 설명해 주세요.](/javascript/6주차/null_undefined_undeclared_NaN.md)
 
-- 자바스크립트 데이터 타입에 대해 설명해 주세요.
+- [자바스크립트 데이터 타입에 대해 설명해 주세요.]()
 
-- mutable과 immutable에 대해 설명해 주세요.
+- [mutable과 immutable에 대해 설명해 주세요.](./javascript/6주차/mutable과%20immutable에%20대해%20설명해주세요.md)
 
-- throttle과 debounce에 대해 설명해 주세요.
+- [throttle과 debounce에 대해 설명해 주세요.]()
 
-- iterable, iterator, generator에 대해 설명해 주세요.
+- [iterable, iterator, generator에 대해 설명해 주세요.]()
 
 - [자바스크립트 동작 원리에 대해 설명해 주세요.](/javascript/6주차/자바스크립트_동작원리.md)
 
