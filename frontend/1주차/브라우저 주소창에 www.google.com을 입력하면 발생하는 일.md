@@ -1,6 +1,8 @@
+# 브라우저 주소창에 www.google.com을 입력하면 발생하는 일을 설명해주세요.
+
 ## 1. 브라우저의 URL 파싱
 
-![Alt text](image.png)
+![Alt text](../../resources/브라우저%20주소창에%20www.google.com을%20입력하면%20발생하는%20일/image.png)
 
 URL을 입력받은 브라우저는 이 URL의 구조를 해석한다.
 
@@ -25,7 +27,7 @@ URL을 입력받은 브라우저는 이 URL의 구조를 해석한다.
 
 - 일반적으로 **HTTPS로 접속을 유도**하는 방법
 
-![Alt text](image-1.png)
+![Alt text](../../resources/브라우저%20주소창에%20www.google.com을%20입력하면%20발생하는%20일/image-1.png)
 
 1. mybank.com을 주소창에 타이핑하고 엔터를 입력한다.
 2. 브라우저는 앞에 프로토콜이 없음을 인식하고 http를 붙인다. 그리고 http.mybank.com으로 요청을 보낸다.
@@ -36,19 +38,19 @@ URL을 입력받은 브라우저는 이 URL의 구조를 해석한다.
 
 - **HSTS를 적용**한 브라우저와 웹 서버를 사용하는 경우
 
-![Alt text](image-2.png)
+![Alt text](../../resources/브라우저%20주소창에%20www.google.com을%20입력하면%20발생하는%20일/image-2.png)
 
 1. 처음 웹 서버에 접속할 때, 응답 헤더로 **Strict-transport-security**라는 내용이 함께 온다.
 2. HSTS를 지원하는 브라우저는 헤더의 내용을 확인하고 HSTS 목록에 URL을 저장한다. (max-age 동안)
 
-![Alt text](image-3.png)
+![Alt text](../../resources/브라우저%20주소창에%20www.google.com을%20입력하면%20발생하는%20일/image-3.png)
 
 **HSTS 등록 방법**
 
 - `chrome://net-internals/#hsts`
   - 이걸 주소창에 입력하면 HSTS를 등록할 수 있다.
 
-![Alt text](image-4.png)
+![Alt text](../../resources/브라우저%20주소창에%20www.google.com을%20입력하면%20발생하는%20일/image-4.png)
 
 <br/>
 
@@ -57,7 +59,7 @@ URL을 입력받은 브라우저는 이 URL의 구조를 해석한다.
 - url은 컴퓨터끼리 통신하기에 적합하지 않기 때문에 이를 컴퓨터가 읽을 수 있는 IP로 변환해야 한다.
 - 도메인 이름을 IP 주소로 변환하는 과정은 크게 2가지로 이루어진다. 1. 자신의 [\*\*localhost](http://localhost) 파일**과 **웹 캐시**에 해당 URL이 존재하는지 확인하고 있다면 그것을 불러온다. \* 해당 웹 캐시에는 url과 ip포트 정보가 저장되어 있다. 2. 존재하지 않으면, 도메인 주소를 IP 주소로 변환해주는 **DNS 서버\*_에 요청하여 해당 URL을 IP 주소로 변환한다.
   _ DNS 서버 : 53번 포트
-  ![Alt text](image-5.png)
+  ![Alt text](../../resources/브라우저%20주소창에%20www.google.com을%20입력하면%20발생하는%20일/image-5.png)
 
 <br/>
 
@@ -69,7 +71,7 @@ URL을 입력받은 브라우저는 이 URL의 구조를 해석한다.
 - 이때, 라우터의 라우팅 테이블을 통해 요청이 어떤 경로를 가야하는지 알 수 있고, 이를 통해 해당 IP 주소를 찾아갈 수 있다.
 - 이 그림에서 IP 주소는 10.20.30.6 이고, 이 IP 주소에 도착하기까지의 경로를 찾아가는 과정을 나타낸다.
 
-![Alt text](image-7.png)
+![Alt text](../../resources/브라우저%20주소창에%20www.google.com을%20입력하면%20발생하는%20일/image-7.png)
 
 <br/>
 
@@ -92,7 +94,7 @@ URL을 입력받은 브라우저는 이 URL의 구조를 해석한다.
 - 쉽게 설명하면 사람의 주민등록번호를 MAC 주소, 이름은 IP 주소라고 생각하면 된다.
 - 사람을 지목할 때, 이름을 부르지 주민등록번호를 부르지 않기 때문
 
-![Alt text](image-10.png)
+![Alt text](../../resources/브라우저%20주소창에%20www.google.com을%20입력하면%20발생하는%20일/image-10.png)
 
 <br/>
 
@@ -100,10 +102,9 @@ URL을 입력받은 브라우저는 이 URL의 구조를 해석한다.
 
 - 여기까지 왔으면 실제 **MAC 주소**를 가지고 있다.
 - 처음에 `naver.com`을 입력했다면 ⇒ DNS를 통해 IP 주소를 알고 ⇒ ARP를 통해 MAC 주소로 변환하여 실제 물리 주소를 알게 되었다.
-- 이제는 연결을 진행해야 한다. ⇒ TCP의 `3-way-handshake`를 통해 진행
-  +`https 요청`일 경우 3-way-handshake 이후 `TLS-handshake`가 추가로 필요하다. (암호화 통신을 위해)
+- 이제는 연결을 진행해야 한다. ⇒ TCP의 `3-way-handshake`를 통해 진행 +`https 요청`일 경우 3-way-handshake 이후 `TLS-handshake`가 추가로 필요하다. (암호화 통신을 위해)
 
-![Alt text](image-8.png)
+![Alt text](../../resources/브라우저%20주소창에%20www.google.com을%20입력하면%20발생하는%20일/image-8.png)
 
 <br/>
 
@@ -121,7 +122,7 @@ URL을 입력받은 브라우저는 이 URL의 구조를 해석한다.
 
 - 서버에서 응답한 내용들은 Html, CSS, JS로 이루어져있다.
 
-![Alt text](image-9.png)
+![Alt text](../../resources/브라우저%20주소창에%20www.google.com을%20입력하면%20발생하는%20일/image-9.png)
 
 - 이를 브라우저에서 해석하여 렌더링하고, 우리는 그 해석한 결과물을 보게된다.
 
