@@ -8,13 +8,13 @@
 
 </aside>
 
-- **Model** : 데이터를 다루는 부분
-- **View** : 레이아웃과 화면을 다루는 부분
-- **Controller** : 사용자의 명령을 받아 Model과 View 부분을 이어주는 부분
+-   **Model** : 데이터를 다루는 부분
+-   **View** : 레이아웃과 화면을 다루는 부분
+-   **Controller** : 사용자의 명령을 받아 Model과 View 부분을 이어주는 부분
 
 ### 동작 방식
 
-![Untitled](../../resources/MVC,%20MVVM%20패턴에%20대해%20설명해주세요/image1.png)
+![Untitled](../../resources/MVC_MVVM/image1.png)
 
 1. 사용자가 브라우저에서 웹 페이지 주소를 입력해 서버로 HTTP GET 요청을 보낸다.
 2. 서버는 `Controller`에서 HTTP GET 요청을 받는다.
@@ -39,11 +39,11 @@
 
 </aside>
 
-- **Model** : 비즈니스 로직과 데이터를 처리하는 부분
-- **View** : UI에 관련된 것을 다룸 (구조, 레이아웃, 형태 등)
-- **View Model** : View를 표현하기 위해 만든 **View를 위한 Model,** View는 View Model의 상태 변화를 observe하기 때문에 \*\*\*\*data의 갱신을 View가 자동으로 받아올 수 있게 되어있다.
+-   **Model** : 비즈니스 로직과 데이터를 처리하는 부분
+-   **View** : UI에 관련된 것을 다룸 (구조, 레이아웃, 형태 등)
+-   **View Model** : View를 표현하기 위해 만든 **View를 위한 Model,** View는 View Model의 상태 변화를 observe하기 때문에 \*\*\*\*data의 갱신을 View가 자동으로 받아올 수 있게 되어있다.
 
-![Untitled](../../resources/MVC,%20MVVM%20패턴에%20대해%20설명해주세요/image2.png)
+![Untitled](../../resources/MVC_MVVM/image2.png)
 
 ### 장점
 

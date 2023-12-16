@@ -11,23 +11,23 @@
 var x = "global";
 
 function foo() {
-  var x = "function scope";
-  console.log(x);
+    var x = "function scope";
+    console.log(x);
 }
 
 foo(); // ?
 console.log(x); // ?
 ```
 
-- 여기서 x가 두 번 선언되었지만, JS는 각각 x를 다른 값으로 해석한다.
-- 함수 안에 있는 x는 함수 안에서만 참조 가능하고, 전역에 선언된 x는 어디서든 참조할 수 있기 때문에 다른 값으로 해석되는 것이다. 이렇게 식별자를 찾는 규칙을 `스코프`라고 한다.
+-   여기서 x가 두 번 선언되었지만, JS는 각각 x를 다른 값으로 해석한다.
+-   함수 안에 있는 x는 함수 안에서만 참조 가능하고, 전역에 선언된 x는 어디서든 참조할 수 있기 때문에 다른 값으로 해석되는 것이다. 이렇게 식별자를 찾는 규칙을 `스코프`라고 한다.
 
 ## 2. 구분
 
 1. **Global Scope**(전역 스코프) : 코드의 모든 범위에서 사용 가능
 2. **Local Scope**(지역 스코프)
-   1. **Function Scope**(함수 스코프) : 함수 안에서만 사용 가능
-   2. **Block Scope**(블록 스코프) : if, for, switch등 특정 블록 내에서만 사용 가능
+    1. **Function Scope**(함수 스코프) : 함수 안에서만 사용 가능
+    2. **Block Scope**(블록 스코프) : if, for, switch등 특정 블록 내에서만 사용 가능
 
 > 대부분의 C기반 언어들은 블록 레벨 스코프를 따르지만, `JS`는 `함수 레벨 스코프`를 따른다.
 
@@ -42,7 +42,7 @@ console.log(x); // ?
 let x = "global";
 
 function foo() {
-  console.log(x);
+    console.log(x);
 }
 
 foo(); // global
@@ -79,8 +79,8 @@ test();
 ```jsx
 let y = 0; // let은 블록 레벨 스코프를 가진다
 {
-  let y = 1; // 이렇게 해도 덮어쓰지 않는다
-  console.log(y); // 1
+    let y = 1; // 이렇게 해도 덮어쓰지 않는다
+    console.log(y); // 1
 }
 console.log(y); // 0
 ```
@@ -98,12 +98,12 @@ console.log(y); // 0
 var foo = "Hello";
 
 function baz() {
-  console.log(foo); // Hello => 이 함수가 선언된 위치가 전역이라서 전역 변수에 할당된 Hello가 출력된다.
+    console.log(foo); // Hello => 이 함수가 선언된 위치가 전역이라서 전역 변수에 할당된 Hello가 출력된다.
 }
 
 function bar() {
-  var foo = "World";
-  baz();
+    var foo = "World";
+    baz();
 }
 
 bar();
@@ -148,42 +148,42 @@ var x = "global x";
 
 // outer 함수 지역 스코프
 function outer() {
-  var x = "outer x";
-  var y = "outer y";
+    var x = "outer x";
+    var y = "outer y";
 
-  // inner 함수 지역 스코프
-  function inner() {
-    var x = "inner x";
+    // inner 함수 지역 스코프
+    function inner() {
+        var x = "inner x";
 
-    // if 블럭 지역 스코프
-    if (x) {
-      const x = "if block scope";
-      console.log(x); // if block scope
-      console.log(y); // outer y
-      console.log(z); // Uncaught ReferenceError: z is not defined
+        // if 블럭 지역 스코프
+        if (x) {
+            const x = "if block scope";
+            console.log(x); // if block scope
+            console.log(y); // outer y
+            console.log(z); // Uncaught ReferenceError: z is not defined
+        }
     }
-  }
 
-  inner();
+    inner();
 }
 
 outer();
 ```
 
-- 여기서 if문 안에 있는 x를 출력할 때, 후보가 되는 변수들 중에 하나의 값을 선택해야 한다.
-- 이때 스코프 체인을 활용하여 값을 참조한다.
+-   여기서 if문 안에 있는 x를 출력할 때, 후보가 되는 변수들 중에 하나의 값을 선택해야 한다.
+-   이때 스코프 체인을 활용하여 값을 참조한다.
 
 ### 스코프 체인을 통한 식별자 탐색
 
-![Untitled](../../resources/스코프와%20스코프체인에%20대해%20설명해주세요/image.png)
+![Untitled](../../resources/Scope/image.png)
 
-- 최상위 스코프는 전역 스코프이다.
-- 하위 ⇒ 상위 **단방향 탐색**만 수행된다.
-- 식별자 참조 시 JavaScript 엔진은 다음과 같은 과정을 수행한다.
-  1. 식별자 탐색은 식별자를 참조하는 코드의 스코프에서 시작한다.
-  2. 현재 스코프에 참조하려는 식별자가 없으면 상위 스코프를 탐색한다.
-  3. 참조하는 식별자를 찾은 경우 탐색을 중지한다.
-  4. 참조하는 식별자를 전역 스코프에서도 찾지 못한 경우에는 ReferenceError을 발생시킨다.
+-   최상위 스코프는 전역 스코프이다.
+-   하위 ⇒ 상위 **단방향 탐색**만 수행된다.
+-   식별자 참조 시 JavaScript 엔진은 다음과 같은 과정을 수행한다.
+    1. 식별자 탐색은 식별자를 참조하는 코드의 스코프에서 시작한다.
+    2. 현재 스코프에 참조하려는 식별자가 없으면 상위 스코프를 탐색한다.
+    3. 참조하는 식별자를 찾은 경우 탐색을 중지한다.
+    4. 참조하는 식별자를 전역 스코프에서도 찾지 못한 경우에는 ReferenceError을 발생시킨다.
 
 ---
 
