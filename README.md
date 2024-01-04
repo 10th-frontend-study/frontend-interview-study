@@ -160,21 +160,13 @@
 
 - JSX에 대해 설명해 주세요.
 
-- 브라우저는 JSX 파일을 읽을 수 있나요?
+- [브라우저는 JSX 파일을 읽을 수 있나요?](./react/7주차/browser-jsx.md)
 
 - 재조정(Reconciliation) 개념에 대해서 설명해 주세요.
 
-- state와 props의 차이를 설명해 주세요.
+- [state와 props의 차이를 설명해 주세요.](./react/7주차/state-props.md)
 
 - 자식 컴포넌트에서 props를 변경할 수 있나요?
-
-- React Hooks에 대해 설명해 주세요.
-
-- React Lifecycle에 대해 설명해 주세요.
-
-- useState에 대해 설명해 주세요.
-
-- useEffect에 대해 설명해 주세요.
 
 - useEffect와 useLayoutEffect의 차이 대해 설명해 주세요.
 
@@ -184,4 +176,4 @@
 
 - Props drilling의 개념과 Props drilling을 피하는 방법에 대해 설명해 주세요.
 
-- 전역 상태 관리 방법에 대해 설명해 주세요.
+- [전역 상태 관리 방법에 대해 설명해 주세요.](./react/8주차/global-state.md)
